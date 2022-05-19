@@ -21,9 +21,7 @@ Genshin Wishes это бесплатный сайт с [открытым исх�
 4) В меню «Пуск» найдите «Powershell» и откройте «Windows Powershell»
 5) Затем скопируйте следующий код и вставьте его в окно Powershell
    
-   iex ((New-Object
-   System.Net.WebClient).DownloadString('https://raw.githubusercontent.com/genshin-
-   wishes/genshin-wishes-getlink/main/global.ps1'));
+iex ((New-Object System.Net.WebClient).DownloadString('https://raw.githubusercontent.com/genshin-wishes/genshin-wishes-getlink/main/global.ps1'));
 
 6) Нажмите ENTER, после чего ссылка будет скопирована в буфер обмена
 7) Вставьте его в поле в разделе "Настройки"
